@@ -1,8 +1,5 @@
 # .bashrc
 
-# pipx completion
-eval "$(register-python-argcomplete pipx)"
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -27,5 +24,4 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-# Created by `pipx` on 2022-12-05 23:16:29
-export PATH="$PATH:/home/void-crys/.local/bin"
+

@@ -141,7 +141,6 @@ glibmm
 gmp
 gmp-devel
 gnutls
-google-chrome
 google-fonts-ttf
 graphite
 grep

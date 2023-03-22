@@ -150,8 +150,26 @@ Vagrant.configure("2") do |config|
 end
 
 ```
+## Configurações com nome da máquina virtual, provider, memória, cpu, ip, porta, compartilhamento de pasta e provisionamento e executando scrpit
 
+```ruby
+Vagrant.configure("2") do |config| 
+  config.vm.box = "ubuntu/trusty64" # box do vagrant hub
+  config.vm.box_version = "20160801.0.0" # versão da box
+  config.vm.hostname = "vagrant" # nome da máquina virtual
+  config.vm.provider "virtualbox" do |vb| # provider
+    vb.name = "vagrant" # nome da máquina virtual
+    vb.memory = "1024" # memória da máquina virtual
+    vb.cpus = "2" # quantidade de cpus da máquina virtual
+    end
+    config.vm.network "private_network", ip: "
+    config.vm.network "forwarded_port", guest: 80, host: 8080
+    config.vm.synced_folder ".", "/vagrant", disabled: true
+    config.vm.provision "shell", path: "script.sh"
+    end
+end
 
+```
 
 
 

@@ -43,7 +43,7 @@ vim.cmd([[ set splitbelow     ]])
 vim.cmd([[ set autoread       ]])
 vim.cmd([[ filetype on        ]])
 vim.cmd([[ filetype plugin on ]])
-vim.cmd([[ set termguicolors  ]])
+--vim.cmd([[ set termguicolors  ]])
 
 
 
@@ -62,7 +62,7 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
+--vim.opt.termguicolors = true
 
 -- empty setup using defaults
 require("nvim-tree").setup()
@@ -132,6 +132,28 @@ vim.cmd([[ let g:copilot_filetypes = {
                               \ 'clojure': v:true,
                               \ 'clojurescript': v:true,
                               \ 'lisp': v:true,
+                              \ 'scheme': v:true,
+                              \ 'ocaml': v:true,
+                              \ 'fortran': v:true,
+                              \ 'fortran77': v:true,
+                              \ 'fortran90': v:true,
+                              \ 'fortran95': v:true,
+                              \ 'fortran03': v:true,
+                              \ 'fortran08': v:true,
+                              \ 'fortran2003': v:true,
+                              \ 'fortran2008': v:true,
+                              \ 'fortran2018': v:true,
+                              \ 'fortran2015': v:true,
+                              \ 'vagrant': v:true,
+                              \ 'terraform': v:true,
+                              \ 'puppet': v:true,
+                              \ 'ansible': v:true,
+                              \ 'chef': v:true,
+                              \ 'salt': v:true,
+                              \ 'groovy': v:true,
+                              \ 'julia': v:true,
+                              \ 'nim': v:true,
+                              \ 'crystal': v:true,
                               \ }
 
 ]])

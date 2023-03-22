@@ -21,7 +21,7 @@
 
 ## Configurações básicas
 
-'''ruby
+'''
 Vagrant.configure("2") do |config| 
   config.vm.box = "ubuntu/trusty64" #arquivo do vagrant hub
 end

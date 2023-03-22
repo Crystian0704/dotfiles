@@ -3,12 +3,23 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# alias para ler markdow  com pandoc
+alias md='pandoc -t plain -s'
+
+# alias para montar e desmontar usb
 alias montar='sudo mount /dev/sdc1 /media/usb-drive/'
 alias desmontar='sudo umount /dev/sdc1 /media/usb-drive/'
+
+# alias para copiar para a area de transferencia
 alias copy='xclip -sel clip'
+
+# alias para mudar listar diretorios de ls para exa
 alias ls='exa -1 --icons'
+
+# alias para desligar e reiniciar
 alias s='sudo shutdown -h now'
 alias r='sudo reboot'
+
 # alias install void linux
 alias install='sudo xbps-install -S'
 # alias update void linux

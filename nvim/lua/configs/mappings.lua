@@ -61,4 +61,3 @@ vim.cmd([[nmap <Leader>tk <C-w>t<C-w>K]])
 --open nvim-tree with <C-n>
 
 vim.cmd([[nmap <C-n> :NvimTreeToggle<CR>]])
-

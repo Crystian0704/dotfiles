@@ -47,6 +47,7 @@ vim.cmd([[ set termguicolors  ]])
 vim.cmd([[ colorscheme melange]])
 
 
+
 -- enable copy and paste
 vim.cmd([[ set clipboard=unnamedplus ]])
 

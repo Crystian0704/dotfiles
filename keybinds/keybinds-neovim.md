@@ -6,7 +6,7 @@
 | --- | --- |
 | Sair do Neovim | `q` |
 | Salvar  | `Ctrl + s` |
-| Selecionar tudo | 'Ctrl + a |
+| Selecionar tudo | `Ctrl + a` |
 | Adicionar uma linha em branco abaixo sem pular linha | `op` |
 | Adicionar uma linha em branco acima | `oi` |
 | Adicionar uma linha em branco abaixo pulando linha | `oo` |
@@ -107,7 +107,4 @@
 | Descrição | Atalho |
 | --- | --- |
 | Abrir terminal | `:terminal` |
-| Abrir terminal em uma nova janela | `:sp | terminal` |
-| Abrir terminal em uma nova aba | `:tabe | terminal` |
-| Abrir terminal no modo vertical | `:vertical terminal` |
 

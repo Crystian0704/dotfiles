@@ -14,7 +14,6 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'github/copilot.vim'
-  use 'savq/melange'
   use 'terroo/vim-simple-emoji'
   use 'navarasu/onedark.nvim'
   use {

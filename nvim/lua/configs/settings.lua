@@ -44,7 +44,6 @@ vim.cmd([[ set autoread       ]])
 vim.cmd([[ filetype on        ]])
 vim.cmd([[ filetype plugin on ]])
 vim.cmd([[ set termguicolors  ]])
-vim.cmd([[ colorscheme melange]])
 
 
 
